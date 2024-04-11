@@ -13,8 +13,8 @@ function Footer() {
                         <div className="col-lg-3 mb-3">
                             <h4 style={{ color: '#DEFC27' }} className='py-2' >CONTACT US</h4>
                             <p style={{ fontSize: '15px' }} className='text-white'>
-                                FRONTAL ORGANIZATIONS,<br />
-                                DEPARTMENTS & CELLS,<br />
+                                {/* FRONTAL ORGANIZATIONS,<br />
+                                DEPARTMENTS & CELLS,<br /> */}
                                 INDIRA BHAVAN,<br />
                                 VELLAYAMBALAM-SASTHAMANGALAM ROAD,<br />
                                 SASTHAMANGALAM P.O,<br />
