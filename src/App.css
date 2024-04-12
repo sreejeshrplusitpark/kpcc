@@ -10,7 +10,15 @@
     /* background-color: rgb(72, 72, 155) !important;
     border-radius: 16px; */
  }
-
+ .dropdownbtn:focus{
+    color: navy !important;
+    border-bottom: 5px solid orangered;
+    background-color: white;
+ }
+ .dropdownbtn:hover{
+    color: navy !important;
+    background-color: white;
+ }
 
 .card .image1{
     transition: ease ;
