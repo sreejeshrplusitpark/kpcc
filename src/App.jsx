@@ -13,8 +13,8 @@ import PacPDF from './components/PacPDF'
 import Contribute from './pages/Contribute'
 import BlogView from './pages/BlogView'
 import ManifestoPdf from './components/ManifestoPdf'
+import ApkStore from './pages/ApkStore'
 import FormatC2 from './components/FormatC2'
-
 
 function App() {
 const location = useLocation()
@@ -35,6 +35,7 @@ const isHeader = () =>{
       <Route path='/office-bearers' element={<OfficeBearers/>} />
       <Route path='/frontal-organizations' element={<FrontalOrganizations/>} />
       <Route path='/about' element={<About/>}/>
+      <Route path='/apk-store' element={<ApkStore/>}/>
       <Route path='/donate' element={<Contribute/>}/>
       <Route path='/view/:id' element={<View/>}/>
       <Route path='/blogs/:slug' element={<BlogView/>}/>
