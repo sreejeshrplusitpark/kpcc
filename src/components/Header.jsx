@@ -49,8 +49,8 @@ function Header() {
                 style={{textDecoration:'none'}}>Format C-7</Link>
                 </Nav.Link> */}
 
-         <Dropdown >
-                <Dropdown.Toggle className='btn dropdownbtn btn-link text-black fw-bold text-decoration-none border-0 text-uppercase'  id="dropdown-basic">
+                <Dropdown className='m-0'>
+                <Dropdown.Toggle className='btn p-0 py-2 dropdownbtn btn-link text-black fw-bold text-decoration-none border-0 text-uppercase'  id="dropdown-basic">
                   Documents
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
