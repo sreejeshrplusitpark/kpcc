@@ -26,14 +26,14 @@ function ApkStore() {
   console.log(app);
 
 
-  const handlePride = () => {
-    window.open("https://drive.google.com/file/d/1fwjmFFxvDk3SdvwKV00Qs22vFBz-8Kc3/view?usp=sharing", "_blank");
-  }
+  // const handlePride = () => {
+  //   window.open("https://drive.google.com/file/d/1fwjmFFxvDk3SdvwKV00Qs22vFBz-8Kc3/view?usp=sharing", "_blank");
+  // }
 
   useEffect(() => {
-   
     getAllApps()
   },[])
+
   return (
     <div style={{ backgroundColor: '#4267B2' }} className='w-100'>
       <div style={{ backgroundColor: '' }} className="container py-5">
@@ -94,7 +94,7 @@ function ApkStore() {
 
                      {/* apk */}
                      <div className='d-flex align-items-start justify-content-start gap-2'>
-                       <Link className='apkbtns btn btn-light text-black text-start    d-flex align-items-center'>
+                       <Link to="https://drive.google.com/file/d/1Swv2GJ8-DXDMIFytKY1mtOPJmATvQp8P/view?usp=sharing" target='_blank' className='apkbtns btn btn-light text-black text-start d-flex align-items-center'>
                         <span className='border-end border-dark pe-3 border-2'>APK For <br/> <span className='fw-bold'>ANDROID</span> </span>
                       <i class="fa-solid fa-download ms-3 fs-3"></i></Link>
                        {/* PWA */}
@@ -148,7 +148,7 @@ function ApkStore() {
                       </div>
                     </Link>
                     {/* youtube */}
-                    <Link className='apkbtns btn btn-light py-3 px-4'>
+                    <Link style={{paddingTop:'15px',paddingBottom:'15px'}} className='apkbtns btn btn-light  px-4'>
                       <img style={{ height: '30px', width: '60px' }} className='img-fluid' src={youtubeImage} alt="" /></Link>
                      {/* apk */}
                      <div className='d-flex align-items-start justify-content-start gap-2'>
