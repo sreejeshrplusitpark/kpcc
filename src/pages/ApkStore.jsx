@@ -94,7 +94,7 @@ function ApkStore() {
 
                      {/* apk */}
                      <div className='d-flex align-items-start justify-content-start gap-2'>
-                       <Link to="https://drive.google.com/file/d/1Nvs_oNm_2eqdhtEOcOLM0XY7oopB3IFP/view?usp=sharing" target='_blank' className='apkbtns btn btn-light text-black text-start d-flex align-items-center'>
+                       <Link to="https://drive.google.com/file/d/13gJkEGh2_r6L4goTwdUO2cNUg8AAK03K/view?usp=sharing" target='_blank' className='apkbtns btn btn-light text-black text-start d-flex align-items-center'>
                         <span className='border-end border-dark pe-3 border-2'>APK For <br/> <span className='fw-bold'>ANDROID</span> </span>
                       <i class="fa-solid fa-download ms-3 fs-3"></i></Link>
                        {/* PWA */}
