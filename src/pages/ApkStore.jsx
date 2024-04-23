@@ -14,14 +14,14 @@ function ApkStore() {
     const result = await axios.get(`${url}/api/admin/app-links`)
     setApp(result.data);
     // find the object with name nethaji
-    const nethajiApp = result.data.find(ap => ap.name === 'Nethaji')
-    console.log(nethajiApp);
+    // const nethajiApp = result.data.find(ap => ap.name === 'Nethaji')
+    // console.log(nethajiApp);
     // set the value of the key apk = https://drive.google.com/file/d/1fwjmFFxvDk3SdvwKV00Qs22vFBz-8Kc3/view?usp=sharing
-    if(nethajiApp){
-      nethajiApp.apk = "https://drive.google.com/file/d/1JaErEuQEmlwDk089nf3IKq-nuRuvz67o/view?usp=sharing"
-    }else{
-      console.log('not found');
-    }
+    // if(nethajiApp){
+    //   nethajiApp.apk = "https://drive.google.com/file/d/1JaErEuQEmlwDk089nf3IKq-nuRuvz67o/view?usp=sharing"
+    // }else{
+    //   console.log('not found');
+    // }
   }
   console.log(app);
 
@@ -94,7 +94,7 @@ function ApkStore() {
 
                      {/* apk */}
                      <div className='d-flex align-items-start justify-content-start gap-2'>
-                       <Link to="https://drive.google.com/file/d/1Swv2GJ8-DXDMIFytKY1mtOPJmATvQp8P/view?usp=sharing" target='_blank' className='apkbtns btn btn-light text-black text-start d-flex align-items-center'>
+                       <Link to="https://drive.google.com/file/d/1Nvs_oNm_2eqdhtEOcOLM0XY7oopB3IFP/view?usp=sharing" target='_blank' className='apkbtns btn btn-light text-black text-start d-flex align-items-center'>
                         <span className='border-end border-dark pe-3 border-2'>APK For <br/> <span className='fw-bold'>ANDROID</span> </span>
                       <i class="fa-solid fa-download ms-3 fs-3"></i></Link>
                        {/* PWA */}
