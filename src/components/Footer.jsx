@@ -84,6 +84,7 @@ function Footer() {
                                         Kerala Pradesh Transgender's Congress <br />
                                         Pravasi Returnees Congress <br />
                                         Sahakarana Janadhipathya Vedhi <br />
+                                        Gandhi Darshan Vedhi <br />
                                         Gandhi Darshan Samithi <br />
                                         KPCC Media Cell
                                     </p>
